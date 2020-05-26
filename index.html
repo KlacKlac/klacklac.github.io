@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/styles/swiper.min.css">
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+  <link rel="icon" href="./like.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="./like.svg" type="image/x-icon">
+  <title>Моё портфолио</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <h1 class="title">Привет!<br> Меня зовут Артём</h1>
+          <p class="description">Я начинающий frontend-разработчик. Рад приветствовать Вас на странице моего портфолио,
+            где
+            Вы сможете узнать о моих последних работах и немного обо мне.</p>
+        </div>
+        <div class="swiper-slide">
+          <p class="info">Я с детства мечтал стать программистом. И несмотря на то, что изначально был выбран немного
+            иной
+            путь профессионального развития, мечту я не предал. В итоге, из сферы совершенно не связанной с IT, я
+            перешёл
+            в веб-разработку. Случилось это недавно, в сентябре 2019 года.</p>
+          <p class="info">Несмотря на относительно небольшой опыт
+            коммерческой frontend-разработки, среди моих работ есть несколько сайтов, сделанных мной с нуля (верстка по
+            макету), посадка верстки на CMS (ModX), имеется разработанное самостоятельно SPA.</p>
+          <p class="info">
+            Возможно, опыта у меня пока еще не так много, но его отсутствие с лихвой компенсируется большим желанием
+            развиваться в сфере веб-разработки, желанием и умением обучаться.
+          </p>
+          <p class="info">
+            Подробнее в <a href="https://saratov.hh.ru/resume/7737341bff064053d20039ed1f5a786c4e6861" class="info__link" target="_blank">моём резюме</a>
+          </p>
+        </div>
+        <div class="swiper-slide">
+          <div class="projects">
+            <h3 class="projects__title">Мои проекты</h3>
+            <div class="projects__items-list">
+              <div class="projects__item">
+                <a href="http://www.analit.asap-lp.ru" class="projects__link" target="_blank">Саратов-Аналит</a>
+                <p class="projects__description">Корпоративный сайт. Моя роль в данном проекте - верстка по макету.</p>
+              </div>
+              <div class="projects__item">
+                <a href="https://e-ts.ru" class="projects__link" target="_blank">ЭкспертТехСтрой</a>
+                <p class="projects__description">Корпоративный сайт. Сайт сделан мной самостоятельно - от верстка по
+                  макету,
+                  посадка верстки на CMS</p>
+              </div>
+              <div class="projects__item">
+                <a href="http://agapegroup.ru" class="projects__link" target="_blank">Agape Group</a>
+                <p class="projects__description">Лендинг. Аналогично предыдущему проекту, самостоятельно реализованный
+                  сайт,
+                  верстка, посадка на CMS</p>
+              </div>
+              <div class="projects__item">
+                <a href="http://ufkfaktor.ru/login" class="projects__link" target="_blank">Личный кабинет клиента</a>
+                <p class="projects__description">Приложение, личный кабинет клиента Универсальной Факторинговой Компании
+                  (необходима регистрация). Самостоятельно реализованное мной приложение на React в связке с Redux.
+                  Асинхронность реализована посредством saga.</p>
+              </div>
+            </div>
+            <p class="projects__subtitle">Это список моих основных коммерческих проектов. Помимо перечисленных, имеется
+              ряд
+              проектов, в которых я принимал участие в ходе стажировки, а так же pet-проекты - для развлечения и
+              обучения
+              (приводить их список не считаю сообразным).</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <ul class="contacts">
+            <li class="contacts__item">
+              <span class="contacts__title">Телефон</span>
+              <a href="tel:+79085428099" class="contacts__value">+7-908-542-80-99</a>
+            </li>
+            <li class="contacts__item">
+              <span class="contacts__title">E-mail</span>
+              <a href="mailto:pontiy.pilot@gmail.com" class="contacts__value">pontiy.pilot@gmail.com</a>
+            </li>
+            <li class="contacts__item">
+              <span class="contacts__title">Резюме</span>
+              <a href="https://saratov.hh.ru/resume/7737341bff064053d20039ed1f5a786c4e6861"
+                class="contacts__value">HeadHunter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="navigation">
+      <div class="navigation__button navigation__button_main" title="Главная">
+        <img src="./assets/images/icon-cloud.svg" alt="icon" class="navigation__icon">
+      </div>
+      <div class="navigation__button navigation__button_about" title="Обо мне">
+        <img src="./assets/images/icon-about.svg" alt="icon" class="navigation__icon">
+      </div>
+      <div class="navigation__button navigation__button_projects" title='Мои работы'>
+        <img src="./assets/images/icon-projects.svg" alt="icon" class="navigation__icon">
+      </div>
+      <div class="navigation__button navigation__button_contacts" title='Контакты'>
+        <img src="./assets/images/icon-contacts.svg" alt="icon" class="navigation__icon">
+      </div>
+    </div>
+    <div class="navigation-mob">
+      <div class="navigation__button navigation__button_top" title="Вверх">
+        <img src="./assets/images/icon-arrow.svg" alt="icon" class="navigation__icon">
+      </div>
+      <div class="navigation__button navigation__button_down" title="Вниз">
+        <img src="./assets/images/icon-arrow.svg" alt="icon" class="navigation__icon navigation__icon_down">
+      </div>
+    </div>
+  </div>
+  <script src="./assets/scripts/swiper.min.js"></script>
+  <script src="./assets/scripts/scripts.js"></script>
+</body>
+
+</html>

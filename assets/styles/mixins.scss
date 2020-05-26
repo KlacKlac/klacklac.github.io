@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Comfortaa-Medium;
+  src: url(../fonts/Comfortaa-Medium.woff2) format('woff2'),
+    url(../fonts/Comfortaa-Medium.woff) format('woff');
+}
+
+@font-face {
+  font-family: Ubuntu-Light;
+  src: url(../fonts/Ubuntu-Light.woff2) format('woff2'),
+    url(../fonts/Ubuntu-Light.woff) format('woff');
+}
+
+@mixin font_ComfortaMedium {
+  font-family: Comfortaa-Medium;
+  font-weight: 600;
+}
+
+@mixin font_UbuntuLight {
+  font-family: Ubuntu-Light;
+  font-weight: 300;
+}
+
+@mixin link {
+  color: $color_blue;
+  text-decoration: none;
+}
+
+$color_blue: #9ec2eb;
