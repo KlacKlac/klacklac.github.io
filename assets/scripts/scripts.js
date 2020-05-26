@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     params = {
       simulateTouch: false,
       direction: 'horizontal',
+      spaceBetween: 10,
       on: {
         resize: () => mySwiper.changeDirection(getDirection())
       }

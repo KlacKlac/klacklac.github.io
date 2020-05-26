@@ -27,7 +27,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: #2e2929;
-  background: url("../images/bg3.jpg") top left/100% auto no-repeat;
+  background: url("../images/bg.jpg") top left/100% auto no-repeat;
   background-size: cover;
 }
 
