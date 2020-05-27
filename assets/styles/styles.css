@@ -8,6 +8,11 @@
   src: url(../fonts/Ubuntu-Light.woff2) format("woff2"), url(../fonts/Ubuntu-Light.woff) format("woff");
 }
 
+@font-face {
+  font-family: OpenSans-CondLight;
+  src: url(../fonts/OpenSans-CondLight.woff2) format("woff2"), url(../fonts/OpenSans-CondLight.woff) format("woff");
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -48,8 +53,8 @@ body {
   text-align: center;
   font-size: 60px;
   margin-bottom: 40px;
-  font-family: PFBagueSansPro-Medium;
-  font-weight: 600;
+  font-family: OpenSans-CondLight;
+  font-weight: 300;
 }
 
 .description {
