@@ -1,9 +1,4 @@
 @font-face {
-  font-family: PFBagueSansPro-Medium;
-  src: url(../fonts/PFBagueSansPro-Medium.woff2) format("woff2"), url(../fonts/PFBagueSansPro-Medium.woff) format("woff");
-}
-
-@font-face {
   font-family: Ubuntu-Light;
   src: url(../fonts/Ubuntu-Light.woff2) format("woff2"), url(../fonts/Ubuntu-Light.woff) format("woff");
 }
@@ -42,8 +37,8 @@ body {
   width: 100%;
   margin: 0 auto;
   font-size: 18px;
+  padding: 45px 4%;
   color: #fff;
-  padding: 50px 4%;
   text-shadow: 1px 4px 10px #000000;
   font-family: Ubuntu-Light;
   font-weight: 300;
