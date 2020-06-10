@@ -12,6 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
     params = {
       simulateTouch: false,
       direction: 'horizontal',
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true
+      },
       spaceBetween: 10,
       on: {
         resize: () => mySwiper.changeDirection(getDirection())
@@ -21,6 +25,10 @@ document.addEventListener('DOMContentLoaded', () => {
     params = {
       direction: 'vertical',
       noSwipingClass: 'swiper-slide',
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true
+      },
       on: {
         resize: () => mySwiper.changeDirection(getDirection())
       }
@@ -29,13 +37,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // костыль. установка высоты слайдера в зависимости от высоты окна
   window.addEventListener('resize', () => {
-    if(window.innerWidth <= 480) {
+    if (window.innerWidth <= 480) {
       swiperContainer.style.height = window.innerHeight - 76 + 'px';
     } else {
       swiperContainer.style.height = '';
     }
   });
-  if(window.innerWidth <= 480) {
+  if (window.innerWidth <= 480) {
     swiperContainer.style.height = window.innerHeight - 76 + 'px';
   };
 
